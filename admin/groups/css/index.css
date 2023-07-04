@@ -1,0 +1,14 @@
+.container {
+    max-width: 1315px !important;
+}
+
+.title_list {
+    font-size: 25px;
+    color: #1d1b31;
+    margin-left: 103px;
+    margin-top: 100px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}

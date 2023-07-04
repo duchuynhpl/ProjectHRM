@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1300px !important;
+    }
+}
+
+.home_content {
+    height: 750px;
+    overflow-x: hidden;
+}

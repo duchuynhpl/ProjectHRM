@@ -1,0 +1,100 @@
+
+.dashboard .table{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sp + .sp{
+    margin-left: 80px;
+}
+
+.dashboard .table .sp{
+    color: white;
+    background-color: #4882c6;
+    padding: 5px;
+    /* height: 200px; */
+    border-radius: 10px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+}
+.dashboard .table .sp:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+    cursor: pointer;
+}
+.dashboard .table .kh{
+    background-color: #932dc2;
+}
+.dashboard .table .dm{
+    background-color: rgb(35, 83, 37);
+}
+.dashboard .table .dh{
+    background-color: rgb(170, 52, 52);
+}
+.dashboard .table .sp>p{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: "Encode Sans SC", sans-serif; */
+    font-family: "Bebas Neue", cursive;
+
+}
+.dashboard .table .sp span{
+    text-align: center;
+    font-size: 35px;
+    padding: 2rem 0;
+    font-family: "Bebas Neue", cursive;
+}
+.dashboard .table .sp p>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition:  all 0.3s;
+}
+.dashboard .table .sp:hover p>a{
+    font-size: 22px;
+
+}
+
+main .new-order{
+
+}
+
+.general{
+    display: flex;
+    margin-top: 10px;
+}
+
+.salary{
+    border-top: 4px solid #777777;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 50%;
+    height: 100%;  
+    font-weight: 700;
+}
+
+.trip{
+    border-top: 4px solid #777777;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    width: 48%;
+    height: 100%; 
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.dashboard {
+    border-top: 4px solid #777777;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 99.5%;
+}
+
+.home_content {
+    height: 750px;
+    overflow-x: hidden;
+}

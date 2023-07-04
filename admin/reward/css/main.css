@@ -1,0 +1,42 @@
+.btn{
+    position: absolute;
+    left: 732px;
+    top: 157px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 12px 48px;
+    border-radius: 50px !important;
+    color: #fff !important;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    min-width: 120px;
+    margin-left: -120px;
+}
+
+.btn--size-l{
+    padding: 16px 56px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn + .btn {
+    margin-left: 20px;
+}
+
+.btn--success{
+background-color: rgb(12, 180, 35) !important;
+}
+
+.btn--danger{
+    background-color: rgb(255, 57, 57) !important;
+}
+
+.btn--disabled{
+    opacity: 0.5 !important;
+    cursor: default;
+}
